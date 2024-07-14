@@ -1,0 +1,64 @@
+Phishing Playbook: Verification Section
+1. Initial Double-Check
+In Conjunction with a Senior SOC Member
+Review initial detection data and incident reports.
+Rule out false positives by cross-referencing with legitimate activities.
+2. Identifying and Validating IOCs (Indicators of Compromise)
+Validate Hashes
+
+Use VirusTotal and Hybrid Analysis to validate the hashes of suspicious files.
+Check the reputation and past behaviors associated with the hashes.
+Document findings and flag known malicious hashes.
+Validate Links
+
+Use VirusTotal, Hybrid Analysis, and URLScan to analyze suspicious URLs.
+Verify the URL's reputation and check for any associated malicious activities.
+Document the results of these validations.
+Identify Email Attributes
+
+Examine the email’s subject, attachments, and sender address.
+Identify other potentially suspicious email addresses, domains, and IP addresses using:
+VirusTotal
+Hybrid Analysis
+Talos Intelligence
+Search Threat Intelligence Sources
+
+Perform a thorough search on VirusTotal, Hybrid Analysis, and Talos Intelligence for the identified IOCs.
+Gather additional context and details about the threat actors and campaigns.
+3. Disk Forensics on Recipient's Endpoint
+Endpoint Analysis
+Conduct disk forensics on the recipient's endpoint to uncover any signs of compromise.
+Look for malicious files, unusual processes, and unauthorized changes.
+Document all findings and correlate them with identified IOCs.
+4. Enterprise-Wide Scanning
+Update Spam Filter
+
+Adjust spam filter rules to block further phishing attempts with identified IOCs.
+Update Security Infrastructure
+
+Update firewall (FW), intrusion detection system (IDS), and other security appliance rules with the identified IOCs.
+Search Mail Folders for IOCs
+
+Conduct an enterprise-wide search of all email folders for the identified IOCs.
+Isolate and review any emails that match these indicators.
+Endpoint Detection and Response (EDR)
+
+Utilize EDR tools to search endpoints for IOCs.
+Monitor for any signs of infection or suspicious activity related to the phishing campaign.
+5. Scope Update
+Update Lists of Affected Entities
+Maintain and update lists of:
+Affected recipient addresses
+Compromised endpoints
+Impacted network enclaves
+Affected business units
+6. Scope Validation
+Ensure Comprehensive Identification
+Confirm all affected machines, mailboxes, URLs, domains, IP addresses, ports, files, and hashes have been identified.
+If new IOCs or traces of phishing are discovered, repeat the verification steps.
+Document each validation step and ensure completeness before moving to containment and eradication.
+
+
+
+
+

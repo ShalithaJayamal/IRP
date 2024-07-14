@@ -1,0 +1,63 @@
+Phishing Playbook: Preparation Section
+1. Domain Management
+Create and Maintain a List of All Company Domains
+
+Regularly update the list to include new domains.
+Ensure this list is accessible to relevant personnel.
+Use this list to cross-check against suspected phishing domains to prevent false positives.
+Identify and Document All Individuals Authorized to Register Domains
+
+Maintain a record of these individuals with their contact details.
+Periodically review and update the list to reflect any changes in personnel or roles.
+2. Email Templates
+Notify Employees of Ongoing Phishing Campaigns
+
+Create a standardized email template to inform employees about active phishing threats, including guidelines on how to identify and report suspicious emails.
+Contact Hosting Companies for Domain Takedown
+
+Develop a template for requesting the takedown of phishing domains from hosting companies, including all necessary details and contact information.
+Inform Third Parties to Take Actions Against Phishing on Their Infrastructure
+
+Prepare a template to notify third-party services (e.g., Microsoft, FedEx, Apple) about phishing activities using their platforms, requesting investigation and mitigation actions.
+3. Security Solutions and User Awareness
+Ensure Anti-Malware/Anti-Spam/Anti-Phishing Solutions are in Place
+
+Regularly update and configure email filtering solutions.
+Monitor and tune these solutions to maintain effectiveness against evolving threats.
+User Training and Reporting Mechanisms
+
+Conduct regular training sessions on phishing awareness.
+Ensure users know how to report suspicious emails through a clear and simple process.
+Detection for Office Documents Spawning Processes
+
+Implement detection mechanisms for suspicious activity in office documents:
+PowerShell scripts
+CMD commands
+WMI scripts
+MSHTA usage
+Regularly update and monitor these detection mechanisms.
+4. Drills and Validation
+Perform Fire Drills to Test Playbook Effectiveness
+
+Conduct drills after the playbook publication and at least once a year.
+Include scenarios like phishing attacks and other cyber incidents.
+Test and Validate Contact Information and Escalation Paths
+
+Ensure all internal contact and escalation paths are current.
+Test customer-facing procedures, such as handling compromised customer cards.
+5. Threat Intelligence Review
+Regularly Review Threat Intelligence
+Monitor for threats specific to the organization, brand, and sector.
+Identify common attack patterns and emerging risks.
+Adjust the playbook based on the latest threat intelligence.
+6. Documentation and Access
+Ensure Appropriate Access to Necessary Documentation
+
+Provide out-of-hours access to key documentation and information.
+Maintain an up-to-date incident response (IR) playbook.
+Highlight Information Security Risks to Employees
+
+Regularly inform employees about:
+Phishing attacks and malicious emails
+Ransomware threats
+Procedures for reporting suspected cyber inciden

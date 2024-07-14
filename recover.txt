@@ -1,0 +1,75 @@
+
+Phishing Playbook: Contain and Recover Sections
+4. Contain
+Block
+
+Update Spam Filters
+
+Adjust spam filters to block phishing emails using identified IOCs.
+Update Firewall, Proxy, etc. Rules
+
+Update firewall and proxy rules to block malicious IPs and domains associated with the phishing attack.
+Blackhole DNS
+
+Implement DNS blackholing to prevent communication with known malicious domains.
+Submit to Third Parties
+
+Report phishing URLs and domains to Google Safe Browsing, web filter vendors, and other relevant third parties for broader protection.
+Validate User's Actions
+
+Check User Interaction with Phishing Emails
+Verify if phishing emails have been read.
+Check if attachments have been opened.
+Determine if any links in the phishing emails have been clicked.
+Malware Infection?
+
+Assume Endpoint Infection
+If malicious attachments were opened, assume the endpoint(s) is/are infected.
+Follow the Malware Playbook for further action.
+Delete Emails
+
+Remove Emails from Users' Inboxes
+
+Use spam tools, email admin consoles, and both cloud and on-premises solutions to delete phishing emails from all user inboxes.
+Delete Downloaded Attachments
+
+Use EDR, SIEM, and other enterprise tools to scan and remove downloaded malicious attachments.
+Close Monitoring
+
+Monitor for Related Activities
+Watch for related incoming messages.
+Monitor internet connections to identified IOCs.
+Detect and track new files matching identified malicious hashes.
+All Affected Endpoints Contained?
+
+Confirm Containment
+Ensure all affected endpoints have been contained before moving to the next phase.
+New IOC Discovered?
+
+Analyze New IOCs
+If new IOCs are discovered, return to the Analyze Phase for further investigation and action.
+5. Recover
+Workflow
+
+Update Defenses
+Review and determine which rules need to be updated, removed, or maintained:
+Spam Filters
+Firewall Rules
+EDR configurations
+Domain and hash bans
+Proxy blocks
+All Affected Endpoints Recovered?
+
+Confirm Endpoint Recovery
+Ensure all affected endpoints have been recovered and secured before proceeding.
+Validate Countermeasures
+
+Check for Legitimate Blocks
+Ensure that legitimate elements are not being blocked by:
+Spam Filters
+Proxy
+Firewall
+EDR solutions
+If legitimate elements are blocked, update defenses accordingly.
+If no legitimate elements are blocked, proceed to the next phase.
+By following these detailed steps, the organization can effectively contain and recover from a phishing attack, ensuring minimal impact and restoring normal operations promptly.
